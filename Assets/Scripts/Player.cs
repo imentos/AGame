@@ -81,7 +81,6 @@ public class Player : MonoBehaviour {
 			}
             animator.SetTrigger("Walk");
 		} else {
-            //animator.SetInteger ("AnimState", 0);
             animator.SetTrigger("Idle");
 		}
 
