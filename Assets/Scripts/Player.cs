@@ -79,9 +79,10 @@ public class Player : MonoBehaviour {
 
 				transform.localScale = new Vector3 (forceX > 0 ? 1 : -1, 1, 1);
 			}
-			animator.SetInteger ("AnimState", 1);
+            animator.SetTrigger("Walk");
 		} else {
-			animator.SetInteger ("AnimState", 0);
+            //animator.SetInteger ("AnimState", 0);
+            animator.SetTrigger("Idle");
 		}
 
 		if (controller.moving.y > 0) {
