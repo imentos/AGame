@@ -1,10 +1,13 @@
 ﻿<Properties StartupConfiguration="{07487053-1292-AB1D-09E0-F26FA066A75E}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraFollow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ExitLevel.cs">
     <Files>
       <File FileName="Assets/Scripts/Player.cs" Line="58" Column="9" />
       <File FileName="Assets/Scripts/PlayerController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/CameraFollow.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ClickToContinue.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Collectable.cs" Line="18" Column="1" />
+      <File FileName="Assets/Scripts/ExitLevel.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

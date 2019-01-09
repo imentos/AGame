@@ -17,6 +17,7 @@ public class ExitLevel : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D target){
 		if (target.gameObject.tag == "Player") {
+            print("goal!!");
 			Destroy(target.gameObject);
 			Application.LoadLevel(scene);
 		}
